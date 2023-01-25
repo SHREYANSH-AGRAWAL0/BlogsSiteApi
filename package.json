@@ -1,11 +1,29 @@
 {
   "name": "blogsapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHREYANSH-AGRAWAL0/BlogsSiteApi.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/SHREYANSH-AGRAWAL0/BlogsSiteApi/issues"
+  },
+  "homepage": "https://github.com/SHREYANSH-AGRAWAL0/BlogsSiteApi#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.4"
+  }
 }
